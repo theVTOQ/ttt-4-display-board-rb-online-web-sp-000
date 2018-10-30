@@ -22,6 +22,5 @@ def formatRow(board, firstIndex)
 end
 
 def formatCell(entry)
-  cell = " entry "
-  cell
+  " #{entry} "
 end
