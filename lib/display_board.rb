@@ -18,9 +18,10 @@ def formatRow(board, firstIndex)
   row = formatCell(board[firstIndex])
   row << "|" + formatCell(board[firstIndex + 1])
   row << "|" + formatCell(board[firstIndex + 2])
-  #row
+  row
 end
 
 def formatCell(entry)
-  " entry "
+  cell = " entry "
+  cell
 end
