@@ -6,7 +6,7 @@ def display_board(board)
   row3 = formatRow(board, 6)
   divider = "-----------"
 
-  
+
   puts row1
   puts divider
   puts row2
